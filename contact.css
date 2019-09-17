@@ -1,0 +1,33 @@
+body
+{
+width: 60%;
+margin: auto;
+}
+
+h2
+{
+color: #140058;
+margin-bottom: 3%;
+padding-top: 3%;
+}
+
+.container
+{
+padding-left: 0;
+}
+
+input
+{
+background-image: linear-gradient(to right, #003760, #ffffff);
+color: #ffffff !important;
+border: groove 1px grey !important;
+}
+
+button
+{
+float: right;
+margin-top: 5%;
+background-color: white !important;
+color: #003760 !important;
+border-color: #003760 !important;
+}
