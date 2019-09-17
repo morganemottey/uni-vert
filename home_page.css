@@ -40,3 +40,6 @@ h2,h3{
     width:150px;
     height:150px;
 }
+#home {
+    background: url( "./assets/background_home.jpg") no-repeat center;
+}
