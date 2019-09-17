@@ -39,6 +39,7 @@ button {
 input {
     border: none;
     border-radius: none;
+    margin-bottom: 6px;
 }
 
 
