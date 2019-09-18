@@ -9,21 +9,106 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/css/mdb.min.css" rel="stylesheet">    
 	<link rel="stylesheet"  href="style.css">
 	<link rel="stylesheet"  href="home_page.css">
-
-</head>
-   <body>
-
-	<link rel="stylesheet" href="home_page.css">
-	<link rel="stylesheet" href="style.css">
 </head>
    <body>
 		<section id="home">
 			<div class="container">
-				<h1>Mission zéro déchet</h1>
+				<div class="introduction col-lg-6">	
+					<h1>Mission <br><span>zéro déchet</span></h1>
 					<p>Embarquer avec nous pour une mission hors du commun afin de limiter les déchets spatiaux à travers notre programme de sensibilisation et d’action.</p>
-					Unis-vert en action
+					<div class="button">
+						<hr>						
+						<a href="#Nos actions" role="button">Unis-Vert en action</a>
+					</div>
+				</div>
+				<div class="planets row" id="cadre">
+					<a href="" class="block col-lg-3 col-md-6">
+						<div class="card">
+							<div class="card-body">
+									<img src="assets/mars.png" alt="planète Mars">
+									<h2>Nettoyer Mars</h2>
+									<p><span>129031</span><br>déchets collectés</p>							
+								</div>
+							</div>
+					    </a>
+					<a href="" class="block col-lg-3 col-md-6">
+						<div class="card">
+							<div class="card-body">
+								<img src="assets/saturne.png" alt="planète Saturne">
+								<h2>Nettoyer Saturne</h2>
+								<p><span>193000</span> <br>déchets collectés</p>
+							</div>
+						</div>
+					</a>
+					<a href="" class="block col-lg-3 col-md-6">
+						<div class="card">
+							<div class="card-body">
+							<img src="assets/terre.png" alt="planète Terre">
+							<h2>Nettoyer la Terre</h2>
+							<p><span>356000</span> <br>déchets collectés</p>
+						</div>
+						</div>
+					</a>
+					<a href="" class="block col-lg-3 col-md-6">
+						<div class="card">
+							<div class="card-body">
+								<img src="assets/jupiter.png" alt="planète Jupiter">
+								<h2>Nettoyer Jupiter</h2>
+								<p><span>11700</span> <br>déchets collectés</p>
+							</div>
+						</div>
+					</a>			
+				</div>
 			</div>
 		</section>
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<h2>A propos</h2>
+						<p>Actuellement <strong>150 millions</strong> d’objet de 1 mm ou plus sont en orbite autour de la terre. Au delà de l’enjeu écologique que cette triste réalité représente, c’est une menace pour les  futures conquêtes spatiales. Il s’agit là « d’une pollution industrielle d’un genre nouveau, foudroyant, proliférant et durable » à l’image de la pollution de l’océan par le plastique, le polystyrène et les hydrocarbures.</p>
+						<p><span class="green_color">Unis-Vert</span> est une association à but non lucratif (loi 1901) qui s’est fixée comme mission d’assainir l’orbite terrestre au moyen d’une technologie proche de celle d’un aspirateur.</p>
+						<p>Afin de mener à bien cette objectif nous avons besoin de vous! Notre équipe compte actuellement 6 membres actifs, engagés et passionnés.</p>
+					</div>
+					<div class="col-lg-5 offset-lg-1 offset-sm-0">
+						<img src="assets/activist_home.jpg" alt="planète Jupiter">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+	<script type="text/javascript">
+
+		function go(noeud,fin,vitesse){
+			
+			var debut=noeud.firstChild.data;
+			var timer;
+			this.chrono=chrono();
+			
+			function chrono(){
+				if(debut<fin){
+					debut++;
+					noeud.firstChild.data=debut;
+					timer=setTimeout(chrono,vitesse)
+				}
+				else{
+					clearTimeout(timer)
+				}
+			}
+		}
+			
+		
+		window.onload=function(){
+			var c=document.getElementById("cadre").getElementsByTagName("span");
+				console.log(c)
+			for(j=0;j<c.length;j++){
+				
+
+				new go(c[j],15000000000,Math.ceil(Math.random()*500))
+			}
+		}
+	</script>
 
    <section id="team"> 
 	   <div class="container"> 
@@ -35,7 +120,7 @@
    <div class="Image">
 	    <div class="sg_border" style="width: 18rem;">
 		<div class="roundedImage">
-		<img src="/home/gervais/Documents/git/Projet_1/assets/jupiter.png" class="x" alt="stephane"></div> 
+		<img src="/home/gervais/Documents/git/Projet_1/assets/jupiter.png" alt="stephane"></div> 
 		<div class="card-body">
 		    <h4>Stéphane</h4>
 		<p class="card-text">Au départ instructeur de
