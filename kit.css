@@ -1,25 +1,20 @@
-body
-{
-width: 60%;
-margin: auto;
-}
-
 h2
 {
 color: #140058;
 }
 
-.first_text
+.presentation
 {
+line-height: 1.5em;
 text-align: justify;
-padding-bottom: 2%;
-line-height: 120%;
 }
 
 .container1
 {
 display: flex;
 flex-direction: row;
+width: 60%;
+margin: auto;
 }
 
 .kit_title
@@ -32,14 +27,17 @@ text-decoration: underline overline #003d68;
 
 .kit_title_text
 {
+text-align: justify;
 padding-left: 5%;
-line-height: 120%;
+line-height: 1.5em;
 }
 
 .container2
 {
 display: flex;
 flex-direction: row-reverse;
+width: 60%;
+margin: auto;
 }
 
 .kit_title1
@@ -52,8 +50,9 @@ text-decoration: underline overline #003d68;
 
 .kit_title_text1
 {
+text-align: justify;
 padding-right: 5%;
-line-height: 120%;
+line-height: 1.5em;
 }
 
 .img_resolution
@@ -70,7 +69,7 @@ box-shadow: 21px 11px 30px -24px rgba(9,9,38,0.87);
 margin-bottom: 4%;
 }
 
-@media all and (max-width: 1150px)
+@media all and (max-width: 1300px)
 {
     
 .container1

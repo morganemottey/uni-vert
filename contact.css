@@ -1,9 +1,3 @@
-body
-{
-width: 60%;
-margin: auto;
-}
-
 h2
 {
 color: #140058;
@@ -11,23 +5,43 @@ margin-bottom: 3%;
 padding-top: 3%;
 }
 
-.container
+.container1
 {
-padding-left: 0;
+display: flex;
+flex-direction: row;
+margin-top: 10%;
 }
 
 input
 {
-background-image: linear-gradient(to right, #003760, #ffffff);
+background-image: linear-gradient(to right, #320086, #491b9c);
 color: #ffffff !important;
 border: groove 1px grey !important;
+border-radius: 0 !important;
+width: 60% !important;
+}
+
+textarea
+{
+background-image: linear-gradient(to right, #320086, #491b9c);
+width: 100%;
+margin-top: 1%;
+border: groove 1px grey !important;
+font-size: 1rem;
+padding: .375rem .75rem;
+color: #495057;
+width: 60%;    
 }
 
 button
 {
-float: right;
-margin-top: 5%;
-background-color: white !important;
-color: #003760 !important;
-border-color: #003760 !important;
+background-color: #00dbc7 !important;
+color: #ffffff !important;
+border-color: #00dbc7 !important;
+border-radius: 0 !important;
+}
+
+.contact_address
+{
+font-weight: bold;
 }
