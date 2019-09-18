@@ -1,47 +1,79 @@
-#container .item1{
+/*ISABELLE*/
+#actions p
+{
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#actions h2
+{
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#actions .benevoles
+{
+    background: linear-gradient(0deg, rgba(11,56,195,1) 0%, rgba(11,56,195,1) 62%, rgba(255,255,255,1) 62%, rgba(249,251,251,1) 100%);
+    margin-top: 80px;
+}
+#actions div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#actions .benevoles2
+{
+    margin-top: 40px;
+
+}
+/*MORGANE*/
+*{
+width: 100%}
+
+#engagements #container .item1{
     background-color: #F2F2F2;
 }
-#container .item2{
+#engagements #container .item2{
     background-color: white;
 }
-*{
-    width: 100%;
-}
+
 /*Titre*/
-h2{
+#engagements h2{
     margin-left :100px;
     padding : 50px;
     text-align: left;
 }
 /* Portrait*/
-.colonne1{
+#engagements .colonne1{
     margin-left: 115px;
     justify-content: center;
 }
-.colonne2{
+#engagements .colonne2{
     padding-bottom: 50px;
     justify-content: center;
     padding-top: 30px;
 }
-.colonne1 .card{
+#engagements .colonne1 .card{
     border-radius: 10px;
 }
-h5{
+#engagements h5{
     text-align: center;
 }
-.card-text{
+#engagements .card-text{
     text-align:center;
 }
 
 /*Page 2*/
-.image2{
+#engagements .image2{
     margin-top : 450px;
 }
 
-h3{
+#engagements h3{
     text-align: center;
 }
-p{
+#engagements p{
     text-align: center;
 }
 
@@ -49,55 +81,26 @@ p{
 
 @media only screen and (max-width: 650px){
   /*Page 1*/
-    h2{
+  #engagements h2{
      margin : 0 auto;
      margin-left: 15px;
      justify-content: center;
      text-align:center;
    }
    
-    .colonne1{
+   #engagements .colonne1{
     margin:0;
     margin-left: 80px;
     padding-bottom: 20px;
     }
 /*Page 2*/
 
-.image2{
+#engagements .image2{
     margin-top : 0px;
 }
-.colonne3{
+#engagements .colonne3{
     
 }
-.card{
+#engagements .card{
     margin: 35px;
-
-p
-{
-	text-align: justify;
-	margin-left: 80px;
-    margin-right: 80px;
-}
-h2
-{
-	text-align: justify;
-	margin-left: 80px;
-    margin-right: 80px;
-}
-.benevoles
-{
-	background: linear-gradient(0deg, rgba(11,56,195,1) 0%, rgba(11,56,195,1) 62%, rgba(255,255,255,1) 62%, rgba(249,251,251,1) 100%);
-	margin-top: 80px;
-}
-div
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.benevoles2
-{
-	margin-top: 40px;
-
 }
