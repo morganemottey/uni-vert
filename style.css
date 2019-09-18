@@ -16,7 +16,7 @@
 }
 li .nav-link  {
     font-family: 'roboto_monoregular';
-    font-size: 1.1em;
+    font-size: 1em;
     letter-spacing: 0.05em;
     padding: 10px 20px !important;
 }
@@ -30,6 +30,7 @@ li .nav-link:hover {
 }
 .navbar-nav li {
     padding: 10px 20px;
+    text-align: center;
 }
 .navbar-expand-sm .navbar-nav{
     align-items: center;
@@ -127,19 +128,19 @@ footer a, footer p {
 }
 
 button {
-    padding: 6px 0 6px 0;
+    padding: 6px 15px;
     background-color:#3DD8C4;
-    width: 100px;
     border: none;
     color: white;
     margin-left: -13.5px;
 }
 
-input {
+footer input {
     border: none;
     border-radius: none;
     margin-bottom: 6px;
     height: 43px;
+    width: 400px;;
 }
 
 
