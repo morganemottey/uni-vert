@@ -43,34 +43,28 @@ width: 100%}
     text-align: left;
 }
 /* Portrait*/
-#engagements .colonne1{
-    margin-left: 115px;
-    justify-content: center;
+
+
+.card-body{
+    border-style: solid;
 }
-#engagements .colonne2{
-    padding-bottom: 50px;
-    justify-content: center;
-    padding-top: 30px;
-}
-#engagements .colonne1 .card{
-    border-radius: 10px;
-}
-#engagements h5{
+
+h5{
     text-align: center;
 }
-#engagements .card-text{
+.card-text{
     text-align:center;
 }
 
 /*Page 2*/
-#engagements .image2{
+.image2{
     margin-top : 450px;
 }
 
-#engagements h3{
+h3{
     text-align: center;
 }
-#engagements p{
+p{
     text-align: center;
 }
 
@@ -92,13 +86,60 @@ width: 100%}
     }
 /*Page 2*/
 
-#engagements .image2{
+.image2{
     margin-top : 0px;
 }
-#engagements .colonne3{
+.colonne3{
     
 }
-#engagements .card{
+.card{
     margin: 35px;
+}
+
+/*AJOUT +++++++*/
+
+#container .item1{
+    background-color: #F2F2F2;
+}
+#container .item2{
+    background-color: white;
+}
+
+/*Titre*/
+h2{
+    margin-left :100px;
+    padding : 50px;
+    text-align: left;
+}
+/* Portrait*/
+.colonne1{
+    margin-left: 115px;
+    justify-content: center;
+}
+.colonne2{
+    padding-bottom: 50px;
+    justify-content: center;
+    padding-top: 30px;
+}
+.colonne1 .card{
+    border-radius: 10px;
+}
+h5{
+    text-align: center;
+}
+.card-text{
+    text-align:center;
+}
+
+/*Page 2*/
+.image2{
+    margin-top : 450px;
+}
+
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
 }
 
