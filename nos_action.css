@@ -1,4 +1,3 @@
-
 #container .item1{
     background-color: #F2F2F2;
 }
@@ -72,4 +71,33 @@ p{
 }
 .card{
     margin: 35px;
+
+p
+{
+	text-align: justify;
+	margin-left: 80px;
+    margin-right: 80px;
+}
+h2
+{
+	text-align: justify;
+	margin-left: 80px;
+    margin-right: 80px;
+}
+.benevoles
+{
+	background: linear-gradient(0deg, rgba(11,56,195,1) 0%, rgba(11,56,195,1) 62%, rgba(255,255,255,1) 62%, rgba(249,251,251,1) 100%);
+	margin-top: 80px;
+}
+div
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.benevoles2
+{
+	margin-top: 40px;
+
 }
