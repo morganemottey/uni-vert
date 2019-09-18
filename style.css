@@ -1,8 +1,33 @@
 /*footer*/
 
+nav {
+    font-family: 'roboto_monoregular';
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+}
+
+.nav-link {
+    font-family: 'roboto_monobold';
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-right: 5.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    /****pour donner la couleur blanche aux lien du nav****/
+    color: white;
+}
+
+li {
+    padding-right: 30px;
+}
+
 footer {
     display: flex;
     flex-direction: column;
+    font-family: 'roboto_monoregular';
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
 }
 
 .abonnement {
@@ -10,6 +35,47 @@ footer {
     justify-content: space-around;
     align-items: center;
     background-color: rgb(66, 66, 233);
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+p {
+    color: white!important;
+}
+
+@media screen and (max-width: 729px) {
+    .abonnement {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+    }
+    a,
+    p {
+        font-size: 0.5em!important;
+    }
+    .abonn1>p {
+        font-size: 0.8em!important;
+    }
+}
+
+.twitter {
+    padding-right: 20px;
+}
+
+.facebook {
+    padding-right: 20px;
 }
 
 .les_liens {
@@ -31,9 +97,9 @@ button {
     width: 100px;
     border: none;
     color: white;
-    padding-top: 7px;
-    padding-bottom: 5px;
-    margin-left: -5px;
+    padding-top: 12px;
+    padding-bottom: 5.5px;
+    margin-left: -13.5px;
 }
 
 input {
