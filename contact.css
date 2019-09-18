@@ -1,29 +1,38 @@
-h2
+h2 /* Titre "contact" */
 {
 color: #140058;
 margin-bottom: 3%;
 padding-top: 3%;
 }
 
-.container1
+.container /* Voir avec Maïté */
+{
+padding-left: 2%;
+}
+
+.container1 /* Bloc adresse et mail */
 {
 display: flex;
 flex-direction: row;
-margin-top: 10%;
+margin-top: 4%;
+color: black;
+font-weight: bold;
 }
 
-input
+input /* Informations à remplir par l'utilisateur */
 {
 background-image: linear-gradient(to right, #320086, #491b9c);
+opacity: 0.9;
 color: #ffffff !important;
 border: groove 1px grey !important;
 border-radius: 0 !important;
 width: 60% !important;
 }
 
-textarea
+textarea /* Message à remplir par l'utilisateur */
 {
 background-image: linear-gradient(to right, #320086, #491b9c);
+opacity: 0.9;
 width: 100%;
 margin-top: 1%;
 border: groove 1px grey !important;
@@ -33,7 +42,7 @@ color: #495057;
 width: 60%;    
 }
 
-button
+button /* Bouton "envoyer" */
 {
 background-color: #00dbc7 !important;
 color: #ffffff !important;
@@ -41,7 +50,17 @@ border-color: #00dbc7 !important;
 border-radius: 0 !important;
 }
 
-.contact_address
+iframe /* Centrage de la map Google */
 {
-font-weight: bold;
+		width: 1200px;
+		height: 300px;
+		margin: auto;		
 }
+
+#carte_google /* Bordure de la map Google */
+{
+		width: 1200px;
+		height: 300px;
+		margin: auto;		
+		border: 1px solid black;
+}		
