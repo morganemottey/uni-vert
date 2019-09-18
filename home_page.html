@@ -13,7 +13,7 @@
    <body>
 		<section id="home">
 			<div class="container">
-				<div class="introduction col-lg-6">
+				<div class="introduction col-lg-6">	
 					<h1>Mission <br><span>zéro déchet</span></h1>
 					<p>Embarquer avec nous pour une mission hors du commun afin de limiter les déchets spatiaux à travers notre programme de sensibilisation et d’action.</p>
 					<div class="button">
@@ -21,22 +21,22 @@
 						<a href="#Nos actions" role="button">Unis-Vert en action</a>
 					</div>
 				</div>
-				<div class="planets row">
+				<div class="planets row" id="cadre">
 					<a href="" class="block col-lg-3 col-md-6">
 						<div class="card">
 							<div class="card-body">
 									<img src="assets/mars.png" alt="planète Mars">
 									<h2>Nettoyer Mars</h2>
-									<p><span>3 400</span> <br>déchets collectés</p>
+									<p><span>129031</span><br>déchets collectés</p>							
+								</div>
 							</div>
-						</div>
-					</a>
+					    </a>
 					<a href="" class="block col-lg-3 col-md-6">
 						<div class="card">
 							<div class="card-body">
 								<img src="assets/saturne.png" alt="planète Saturne">
 								<h2>Nettoyer Saturne</h2>
-								<p><span>193 000</span> <br>déchets collectés</p>
+								<p><span>193000</span> <br>déchets collectés</p>
 							</div>
 						</div>
 					</a>
@@ -45,7 +45,7 @@
 							<div class="card-body">
 							<img src="assets/terre.png" alt="planète Terre">
 							<h2>Nettoyer la Terre</h2>
-							<p><span>356 000</span> <br>déchets collectés</p>
+							<p><span>356000</span> <br>déchets collectés</p>
 						</div>
 						</div>
 					</a>
@@ -54,10 +54,10 @@
 							<div class="card-body">
 								<img src="assets/jupiter.png" alt="planète Jupiter">
 								<h2>Nettoyer Jupiter</h2>
-								<p><span>117 00</span> <br>déchets collectés</p>
+								<p><span>11700</span> <br>déchets collectés</p>
 							</div>
 						</div>
-					</a>
+					</a>			
 				</div>
 			</div>
 		</section>
@@ -76,6 +76,40 @@
 				</div>
 			</div>
 		</section>
+
+
+	<script type="text/javascript">
+
+		function go(noeud,fin,vitesse){
+			
+			var debut=noeud.firstChild.data;
+			var timer;
+			this.chrono=chrono();
+			
+			function chrono(){
+				if(debut<fin){
+					debut++;
+					noeud.firstChild.data=debut;
+					timer=setTimeout(chrono,vitesse)
+				}
+				else{
+					clearTimeout(timer)
+				}
+			}
+		}
+			
+		
+		window.onload=function(){
+			var c=document.getElementById("cadre").getElementsByTagName("span");
+				console.log(c)
+			for(j=0;j<c.length;j++){
+				
+
+				new go(c[j],15000000000,Math.ceil(Math.random()*500))
+			}
+		}
+	</script>
+
 
 <section id="team"> 
 	<div class="container"> 
