@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>...</title>
+
+
+<style type="text/css">
+
+
+
+</style>
+
+</head>
+<body>
+
+
+<div id="cadre">
+	<div>10000</div>
+	<div>23730</div>
+    <div>29050</div>
+    <div>11520</div>
+</div>
+
+<script type="text/javascript">
+
+
+function go(noeud,fin,vitesse){
+
+	var debut=noeud.firstChild.data;
+	var timer;
+	this.chrono=chrono();
+
+	function chrono(){
+		if(debut<fin){
+			debut++;
+			noeud.firstChild.data=debut;
+			timer=setTimeout(chrono,vitesse)
+		}
+		else{
+			clearTimeout(timer)
+		}
+	}
+}
+
+
+window.onload=function(){
+	var c=document.getElementById("cadre").getElementsByTagName("div");
+
+	for(j=0;j<c.length;j++){
+		new go(c[j],15000000000,Math.ceil(Math.random()*500))
+	}
+}
+
+</script>
+
+
+</body>
+</html>
