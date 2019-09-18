@@ -28,6 +28,34 @@
     margin-top: 40px;
 
 }
+	text-align: justify;
+	margin-left: 80px;
+    margin-right: 80px;
+}
+#actions h2
+{
+	text-align: justify;
+	margin-left: 80px;
+    margin-right: 80px;
+}
+#actions .benevoles
+{
+	background: linear-gradient(0deg, rgba(11,56,195,1) 0%, rgba(11,56,195,1) 62%, rgba(255,255,255,1) 62%, rgba(249,251,251,1) 100%);
+	margin-top: 80px;
+}
+#actions div
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#actions .benevoles2
+{
+	margin-top: 40px;
+
+}
+485465c653e9b1b297caa2f4d2fc3be534e018d3
 /*MORGANE*/
 *{
 width: 100%}
@@ -37,6 +65,9 @@ width: 100%}
 }
 #engagements #container .item2{
     background-color: white;
+#engagements .item1{
+    background-color: #F2F2F2;
+85465c653e9b1b297caa2f4d2fc3be534e018d3
 }
 
 /*Titre*/
