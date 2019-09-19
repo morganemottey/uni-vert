@@ -1,0 +1,56 @@
+html, body /* Image de fond */
+{
+background: url("https://images.pexels.com/photos/957040/night-photograph-starry-sky-night-sky-star-957040.jpeg?auto=compress&cs=tinysrgb&h=789&w=1440") no-repeat;
+background-size: cover;
+height: 100%;
+}
+
+h2 /* Titre "Je m'engage" */
+{
+margin-bottom: 3%;
+}
+
+h3 /* Sous titre "contact" */
+{
+color: #00dbc7;
+}
+
+.text /* Texte */
+{
+color: #ffffff;
+}
+
+.container1 /* Conteneur */
+{
+display: flex;
+flex-direction: row;
+margin-top: 10%;
+}
+
+.btn-primary /* Bouton "envoyer" */
+{
+float: right;
+margin-top: 5% !important;
+color: #fff;
+background-color: #00dbc7;
+border-color: #00dbc7;
+border-radius: 0;
+}
+
+.form-control /* Informations à remplir par l'utilisateur */
+{
+border-radius: 0;
+opacity: 0.7;
+}
+
+label /* Libellé de l'information à remplir par l'utilisateur */
+{
+color: white;
+}
+
+.logo /* Placement du logo */
+{
+margin-top: 2%;
+text-align: center;
+}
+
