@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
         <title>UniVert</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="kit.css">
     </head>
     <body>
+            <nav class="navbar grey_shadows_blur navbar-expand-lg navbar-dark bg-color">
+                    <a href="#home-page" class="navbar-brand"><img src="assets/logo_unis-vert.png" alt="logo unis-vert"></a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                            <span class="navbar-toggler-icon"></span>        
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarMenu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="#nos_action" class="nav-link">Nos actions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#kit" class="nav-link">Le kit du nettoyeur</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                            <div class="btn_engaged green_background">
+                                <a href="#je_mengage">JE M'ENGAGE</a>
+                            </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>        
         <div class="container">
         
     <section class="presentation">
@@ -18,40 +44,89 @@ C’est pourquoi chez Unis-Vert nous avons conçu un kit du “parfait nettoyeur
     </section>
         
 <section class="first_element">
-<div class="container1">
-    <div>
-        <img src="https://cdn.pixabay.com/photo/2017/02/28/21/18/laser-sword-2106883_960_720.jpg" class="img_resolution" alt="laser">
+<div class="row">
+    <div class="col-lg-6">
+        <img src="assets/kit_laser.jpg" class="img_resolution" alt="laser">
     </div>
-    <div>
-        <p class="kit_title">Le sabre laser</p>
+    <div class="col-lg-6">
+        <h3>Le sabre laser</h3>
         <p class="kit_title_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar faucibus posuere. Praesent magna elit, convallis vel nibh et, facilisis bibendum est. Ut vel malesuada est. Curabitur sed nunc arcu. Nunc elementum pharetra erat et pharetra. Sed vulputate aliquet justo, non auctor leo rutrum eget. Maecenas facilisis mauris at nisl suscipit tincidunt non id nibh. Phasellus tincidunt eros sit amet mattis tempus. Phasellus quis volutpat quam, at tincidunt neque. Nunc laoreet cursus lacus vitae vehicula. Vestibulum gravida sodales tristique.</p>    
     </div>
 </div>
 </section>
         
 <section class="second_element"> 
-<div class="container2">
-    <div>
-        <img src="https://amp.businessinsider.com/images/5d2f6b16789d3e339d71867a-960-720.jpg" class="img_resolution" alt="astronaut">
-    </div>
-    <div>
-        <p class="kit_title1">La combinaison</p>
+<div class="row">
+    <div class="col-lg-6">
+        <img src="assets/kit_combinaison.jpg" class="img_resolution" alt="astronaut">
+    </div>   
+    <div class="col-lg-6">
+        <h3>La combinaison</h3>
         <p class="kit_title_text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar faucibus posuere. Praesent magna elit, convallis vel nibh et, facilisis bibendum est. Ut vel malesuada est. Curabitur sed nunc arcu. Nunc elementum pharetra erat et pharetra. Sed vulputate aliquet justo, non auctor leo rutrum eget. Maecenas facilisis mauris at nisl suscipit tincidunt non id nibh. Phasellus tincidunt eros sit amet mattis tempus. Phasellus quis volutpat quam, at tincidunt neque. Nunc laoreet cursus lacus vitae vehicula. Vestibulum gravida sodales tristique.</p>    
     </div>
 </div>
 </section>
 
 <section class="third_element">
-<div class="container1">
-    <div>
-        <img src="https://i2.wp.com/www.ismartliving.net/wp-content/uploads/2018/12/robot-vacuum-cleaner-3786243_1920.jpg?w=1650&amp;ssl=1" class="img_resolution" alt="aspirateur">
+<div class="row">
+    <div class="col-lg-6">
+        <img src="assets/kit_aspirateur.jpg" class="img_resolution" alt="aspirateur">
     </div>
-    <div>
-        <p class="kit_title">L'aspirateur à débris</p>
+    <div class="col-lg-6">
+        <h3>L'aspirateur à débris</h3>
         <p class="kit_title_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar faucibus posuere. Praesent magna elit, convallis vel nibh et, facilisis bibendum est. Ut vel malesuada est. Curabitur sed nunc arcu. Nunc elementum pharetra erat et pharetra. Sed vulputate aliquet justo, non auctor leo rutrum eget. Maecenas facilisis mauris at nisl suscipit tincidunt non id nibh. Phasellus tincidunt eros sit amet mattis tempus. Phasellus quis volutpat quam, at tincidunt neque. Nunc laoreet cursus lacus vitae vehicula. Vestibulum gravida sodales tristique.</p>    
     </div>
 </div>
 </section>
-</div>       
+</div>
+
+<footer>
+        <!--partie newsletter-------------------------------------------------------------------------------------------------->
+        <section class="abonnement purple_background">
+            <div class="abonn1">
+                <p>S'abonner à notre newsletter</p>
+                <form action=" " method="post ">
+                <input type="email " name="email " id="email " placeholder="Votre email "> <button type="button ">valider</button>
+            </div>
+            </form>
+            <div class="social ">
+                <a href="#" class="twitter ">
+                    <span style="font-size: 3em; color: rgb(255, 255, 255); ">
+                <i class="fab fa-twitter-square "></i>
+                </span>
+                </a>
+                <a href="# " class="facebook "><span style="font-size: 3em; color: rgb(255, 255, 255); ">
+                <i class="fab fa-facebook "></i>
+                </span>
+                </a>
+                <a href="# " class="slack "><span style="font-size: 3em; color: rgb(255, 255, 255); ">
+                <i class="fab fa-slack "></i>
+                </span>
+                </a>
+            </div>
+        </section>
+        <!--partie adresse + liens-------------------------------------------------------------------------------------------------->
+        <section class="les_liens ">
+            <a href="#home-page"><img src="assets/logo_unis-vert.png" alt="logo unis-vert"></a>
+            <div class="bl1">
+                <a href="#nos_action">Nos actions</a>
+                <a href="#kit">Le kit du nettoyeur</a>
+                <a href="#contact">Contact</a>
+                <a href="#">Mention légales</a>
+            </div>
+            <div class="bl2">
+                <p>Nous situer: </br>
+                    12 rue de Neil Armstrong</br>
+                    2020 l'odyssée
+                </p>
+                <p>Email : unis-vert@gmail.com</p>
+            </div>
+        </section>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+<script src="https://kit.fontawesome.com/1dd88b31c0.js "></script>
 </body>
 </html>
