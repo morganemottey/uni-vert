@@ -1,13 +1,7 @@
-h2 /* Titre "contact" */
-{
-color: #140058;
-}
 
-.container /*  */
-{
-padding-left: 2%;
+#contact {
+    padding-top:200px; 
 }
-
 .container1 /* Bloc adresse et mail */
 {
 display: flex;
@@ -19,12 +13,11 @@ font-weight: bold;
 
 .form-group input /* Informations à remplir par l'utilisateur */
 {
-background-image: linear-gradient(to right, #320086, #491b9c);
+background-color: #3827B4;
 opacity: 0.9;
 color: #ffffff !important;
-border: groove 1px grey !important;
+border: none;
 border-radius: 0 !important;
-width: 100% !important;
 }
 
 .form-group label /* Titre de l'information à remplir par l'utilisateur */
@@ -32,22 +25,31 @@ width: 100% !important;
 font-size: 16px;
 color: #5F5F5F;
 }
-
-.form-check-label, .form-check-input /* Bouton "Newsletter" */
-{
-margin-top: 2%;
+.form-group ::placeholder { 
+    color:white;
+    opacity: 1; /* Firefox */
 }
 
+.form-check .form-check-input {
+    margin-top: 0;
+}
+
+form .form-check{
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+display: flex;
+margin-top: 20px;
+}
 textarea /* Message à remplir par l'utilisateur */
 {
-background-image: linear-gradient(to right, #320086, #491b9c);
+background-color: #3827B4;
 opacity: 0.9;
 width: 100%;
-margin-top: 1%;
-border: groove 1px grey !important;
+border: none;
 font-size: 1rem;
 padding: .375rem .75rem;
-color: #495057;
+color:white;
 width: 100%;    
 }
 
@@ -60,29 +62,41 @@ border-color: #00dbc7 !important;
 border-radius: 0 !important;
 }
 
-.contact_address /* Interligne entre les éléments d'adresse et email */
+li.contact_address /* Interligne entre les éléments d'adresse et email */
 {
 font-size: 1.2em;	
+font-family: 'roboto_monoregular';
+color: #5F5F5F;
+list-style-type: none;
 }
 
+li.contact_address a{
+    color:#3DD8C4;
+}
+li.contact_address a:hover {
+    text-decoration: none;
+}
 .address /* Casser le float */
 {
 clear: both;
+padding-top: 50px;
+}
+.address ul {
+    padding-left: 0;
 }
 
 #carte_google 
 {
 overflow:hidden;
-padding-bottom:56.25%;
 position:relative;
-height:0;
+height:400px;
 }
 	
 #carte_google iframe /* Map Google responsive */
 {
 left:0;
 top:0;
-height:70%;
+height:100%;
 width:100%;
 position:absolute;
 }

@@ -3,17 +3,21 @@ h3
 {
 font-family: 'roboto_monoregular';
 color: #3827B4;
-margin-top: 2%;
-margin-bottom: 2%;
-font-size: 1.3em;
 }
 
 .presentation /* Présentation de la page kit du nettoyeur */
 {
-line-height: 1.5em;
-text-align: justify;
+padding: 200px 0 50px 0;
 }
 
+#your_kit .row {
+    margin: 0 0 50px 0;
+}
+#your_kit .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .kit_title_text, .kit_title_text1 /* Texte  */
 {
 text-align: justify;
