@@ -1,102 +1,18 @@
-/*ISABELLE*/
-#actions p
-{
-	text-align: justify;
-	margin-left: 80px;
-    margin-right: 80px;
-}
-#actions h2
-{
-	text-align: justify;
-	margin-left: 80px;
-    margin-right: 80px;
-}
-#actions .benevoles
-{
-	background: linear-gradient(0deg, rgba(11,56,195,1) 0%, rgba(11,56,195,1) 62%, rgba(255,255,255,1) 62%, rgba(249,251,251,1) 100%);
-	margin-top: 80px;
-}
-#actions div
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-#actions .benevoles2
-{
-	margin-top: 40px;
-
-}
-/*MORGANE*/
-*{
-width: 100%}
-
-#engagements .item1{
-    background-color: #F2F2F2;
-}
-
-/*Titre*/
-#engagements h2{
-    margin-left :100px;
-    padding : 50px;
-    text-align: left;
-}
-/* Portrait*/
 
 
-.card-body{
-    border-style: solid;
+/*PAGE ISABELLE*/
+.benevoles {
+background:  linear-gradient(0deg, rgba(11,56,195,1) 0%, rgba(11,56,195,1) 62%, rgba(255,255,255,1) 62%, rgba(255,255,255,1) 100%);
+padding:100px 0; 
 }
 
-h5{
-    text-align: center;
+.benevoles .col-lg-6:last-child {
+    margin-top: 100px;
 }
-.card-text{
-    text-align:center;
-}
+.benevoles .col-lg-6 img {
+    margin: 0 auto;
+    display: block; }
 
-/*Page 2*/
-.image2{
-    margin-top : 450px;
-}
-
-h3{
-    text-align: center;
-}
-p{
-    text-align: center;
-}
-
-/*Responsive Images*/
-
-@media only screen and (max-width: 650px){
-  /*Page 1*/
-  #engagements h2{
-     margin : 0 auto;
-     margin-left: 15px;
-     justify-content: center;
-     text-align:center;
-   }
-   
-   #engagements .colonne1{
-    margin:0;
-    margin-left: 80px;
-    padding-bottom: 20px;
-    }
-/*Page 2*/
-
-.image2{
-    margin-top : 0px;
-}
-.colonne3{
-    
-}
-.card{
-    margin: 35px;
-}
-
-/*AJOUT +++++++*/
 
 #container .item1{
     background-color: #F2F2F2;
@@ -104,42 +20,67 @@ p{
 #container .item2{
     background-color: white;
 }
+.item1{
+    padding:100px 0;
+}
+.item2 {
+    padding: 0 0 100px 0;
+}
 
-/*Titre*/
-h2{
-    margin-left :100px;
-    padding : 50px;
-    text-align: left;
+.item1 h3 {
+    color:#3827B4;
 }
-/* Portrait*/
-.colonne1{
-    margin-left: 115px;
-    justify-content: center;
-}
-.colonne2{
-    padding-bottom: 50px;
-    justify-content: center;
-    padding-top: 30px;
-}
-.colonne1 .card{
-    border-radius: 10px;
-}
-h5{
+.item2 h2{
+    text-align:left;
+
+  }
+.item2 .block {
     text-align: center;
 }
+
+.item1 .card {
+    border: 0;
+}
+
+/* Portrait*/
+
+
 .card-text{
     text-align:center;
+}
+.card-body {
+    text-align: center;
 }
 
 /*Page 2*/
 .image2{
-    margin-top : 450px;
+    margin-top : 180px;
 }
 
-h3{
-    text-align: center;
+.item2 .block h3 {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.5em;
 }
-p{
+.image1 .image2 .image3{
     text-align: center;
 }
 
+/*Responsive Images*/
+
+@media only screen and (max-width: 991px){
+  /*Page 1*/
+    .colonne1{
+    margin:0;
+    margin-left: 80px;
+    padding-bottom: 20px;
+    }
+/*Page 2*/
+
+.image2{
+    margin : 70px 0;
+}
+
+.card{
+    margin: 35px;
+}

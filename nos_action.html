@@ -2,171 +2,195 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-    <title>Nos Evènements</title>
-    <!--LINK JS-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <!--LINK CSS-->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nos_action.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nos Evènements</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="nos_action.css">
 </head>
 
 <body>
-    <section id="actions">
-        <div class="container">
-            <h2>Nos Actions</h2>
-            <p>
-                Unis-vert à pour principal objectif de débarrasser l'espace et l'univers, dans sa globalité, des
-                milliers de déchets qui la polluent.
-                Chaque nouvelle mission à la conquête de l’espace est une avancée et un progrès pour l’humanité mais
-                également un fléau de pollution! <br />
-                C’est pourquoi chez Unis-vert nous nous engageons chaque jour, au travers de nombreuses actions, dans la
-                dépollution de l’espace. <br />
-                Nous comptons actuellement un grand nombre de bénévoles, il ne manque plus que vous!
-            </p>
-        </div>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-color">
+			<a href="#home-page" class="navbar-brand"><img src="assets/logo_unis-vert.png" alt="logo unis-vert"></a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+					<span class="navbar-toggler-icon"></span>        
+				</button>
+			<div class="collapse navbar-collapse" id="navbarMenu">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Nos actions</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Le kit du nettoyeur</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Contact</a>
+					</li>
+					<li class="nav-item">
+					<div class="btn_engaged green_background">
+						<a href="#">JE M'ENGAGE</a>
+					</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-        <div class="benevoles">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img src="https://zupimages.net/up/19/38/e1rd.jpg" alt="bénevole1" class="benevoles1">
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="https://zupimages.net/up/19/38/46ry.jpg" alt="bénévole2" class="benevoles2">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	<section id="actions">
+		<div class="container">
+		<h1>Nos Actions</h1>
+		<p>
+			Unis-vert à pour principal objectif de débarrasser l'espace et l'univers, dans sa globalité, des
+			milliers de déchets qui la polluent. Chaque nouvelle mission à la conquête de l’espace est une avancée et un progrès pour l’humanité mais
+			également un fléau de pollution!</p><p>C’est pourquoi chez Unis-vert nous nous engageons chaque jour, au travers de nombreuses actions, dans la
+			dépollution de l’espace. Nous comptons actuellement un grand nombre de bénévoles, il ne manque plus que vous!</p>
+		</p>
+	</div>
+		<div class="benevoles">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<img src="assets/activist_number_one.jpg" alt="bénevole1" class="benevoles1 green_shadows">
+					</div>
+					<div class="col-lg-6">
+						<img src="assets/activist_number_two.jpg" alt="bénévole2" class="benevoles2 green_shadows">
+					</div>
+				</div>
+			</div>
+		</div>
+	
 
+	<!--PAGE 1-->
+	<div class="item1">
+		<div class="container">
+			<h2> Nos évènements</h2>
+			<div class="card-deck">
+				<div class="card">
+						<img src="assets/events_cleanup.jpg" class="card-img-top" alt="cleanup">
+						<div class="card-body grey_shadows_blur">
+							<h3 class="card-title">Dépollution des sols lunaires</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Maecenas
+								pulvinar faucibus posuere.</p>
+						</div>
+				</div>
+				<div class="card">
+						<img src="assets/events_end-of-life.jpg" class="card-img-top" alt="img2">
+						<div class="card-body grey_shadows_blur">
+							<h3 class="card-title">Installation d’un filet en orbite</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Maecenas
+								pulvinar faucibus posuere.</p>
+						</div>
+					</div>
+			</div>
 
+				<div class="card-deck colonne2">
+					<div class="card">
+							<img src="assets/events_astro.jpg" class="card-img-top" alt="astro">
+							<div class="card-body grey_shadows_blur">
+								<h3 class="card-title">Dépollution des sols lunaires</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Maecenas
+									pulvinar faucibus posuere.</p>
+							</div>
+					</div>
 
+					<div class="card">
+							<img src="assets/events_net.jpg" class="card-img-top" alt="net">
+							<div class="card-body grey_shadows_blur">
+								<h3 class="card-title">Installation d’un filet en orbite</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Maecenas
+									pulvinar faucibus posuere.</p>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--PAGE 2-->
 
+		<div class="item2">
+			<div class="container">
+				<h2> Les débris spatiaux en chiffres</h2>
+				<div class="row colonne3">
+					<div class="col-lg-4 sm-12 block">
+						<div class="image1">
+							<img src="assets/picto_debris.png" class="rounded" alt="debris spatiaux">
+							<h3>29 000</h3>
+							<p> C’est la vitesse de rotation des débris autour de la terre. À cette vitesse l’impact
+								d’un déchet d’un centimètre équivaut à la puissance d’une grenade.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 sm-12 block">
+							<div class="image2">
+								<img src="assets/picto_sateliite.png" class="rounded " alt="satellite">
+								<h3>240</h3>
+								<p> C’est le nombre d’explosions d’engins en orbite qui ont été recensées.</p>
+							</div>
+						</div>
+					<div class="col-lg-4 sm-12 block">
+						<div class="image3">
+							<img src="assets/picto_rotation.png" class="rounded " alt="rotation">
+							<h3>25 000 km/h</h3>
+							<p> C’est la vitesse de rotation des débris autour de la terre. À cette vitesse l’impact d’un déchet d’un centimètre équivaut à la puissance d’une grenade.</p>
+						</div>
+					</div>
 
+				
 
-
-
-
-
-
-    <!--MORGANE-->
-
-
-    
-        <!--PAGE 1-->
-
- <div id="container">
-        <!--PAGE 1-->
-        <div class="item1">
-            <h2> Nos évènements</h2>
-
-
-            <div class="container">
-                <div class="row colonne1">
-                    <div class="col-md-6 sm-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://zupimages.net/up/19/38/b4eh.jpg" class="card-img-top" alt="img1">
-                            <div class="card-body">
-                                <h5 class="card-title">Dépollution des sols lunaires</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Maecenas pulvinar faucibus posuere.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 sm-12">
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://zupimages.net/up/19/38/35w0.jpg" class="card-img-top" alt="img2">
-                                <div class="card-body">
-                                    <h5 class="card-title">Installation d’un filet en orbite</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Maecenas pulvinar faucibus posuere.</p>
-                                </div>
-                            </div>
-                        </div>
-    
-                    <div class="row colonne2">
-                            <div class="col-md-6 sm-12">
-                                <div class="card" style="width: 18rem;">
-                                    <img src="https://zupimages.net/up/19/38/k0f7.jpg" class="card-img-top" alt="img3">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Dépollution des sols lunaires</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Maecenas pulvinar faucibus posuere.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 sm-12">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="https://zupimages.net/up/19/38/xnxz.jpg" class="card-img-top" alt="img4">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Installation d’un filet en orbite</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Maecenas pulvinar faucibus posuere.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            <!--PAGE 2-->
-
-            <!--PAGE 2-->
-
-        <div class="item2">
-                <h2> Les débris spatiaux en chiffres</h2>
-    
-                <div class="container">
-                    <div class="row colonne3">
-                        <div class="col-lg-4 sm-12">
-                            <div class="image1">
-                                <img src="https://zupimages.net/up/19/38/2rdx.png" class="rounded" alt="img5">
-                                <h3>29 000</h3>
-                                <p> C’est la vitesse de rotation des débris autour de la terre. À cette vitesse l’impact
-                                    d’un déchet d’un centimètre équivaut à la puissance d’une grenade.</p>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-4 sm-12">
-                            <div class="image2">
-                                <img src="https://zupimages.net/up/19/38/qorg.png" class="rounded " alt="img7">
-                                <h3>25 000 km/h</h3>
-                                <p> C’est la vitesse de rotation des débris autour de la terre. À cette vitesse l’impact
-                                    d’un
-                                    déchet d’un centimètre équivaut à la
-                                    puissanced’une grenade.</p>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-4 sm-12">
-                            <div class="image3">
-                                <img src="https://zupimages.net/up/19/38/0re7.png" class="rounded " alt="img6">
-                                <h3>240</h3>
-                                <p> C’est le nombre d’explosions d’engins en orbite qui ont été recensées.</p>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-
-
-    <footer>
-    </footer>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/js/mdb.min.js"></script>
+				</div>
+			</div>
+		</div>
+		</section>
+		<footer>
+				<!--partie newsletter-------------------------------------------------------------------------------------------------->
+				<section class="abonnement purple_background">
+					<div class="abonn1">
+						<p>S'abonner à la newsletter</p>
+						<form action=" " method="post ">
+						<input type="email " name="email " id="email " placeholder="Votre email "> <button type="button ">valider</button>
+					</div>
+					</form>
+					<div class="social ">
+						<a href="#" class="twitter ">
+							<span style="font-size: 3em; color: rgb(255, 255, 255); ">
+						<i class="fab fa-twitter-square "></i>
+						</span>
+						</a>
+		
+						<a href="# " class="facebook "><span style="font-size: 3em; color: rgb(255, 255, 255); ">
+						<i class="fab fa-facebook "></i>
+						</span>
+						</a>
+		
+						<a href="# " class="slack "><span style="font-size: 3em; color: rgb(255, 255, 255); ">
+						<i class="fab fa-slack "></i>
+						</span>
+						</a>
+					</div>
+		
+				</section>
+				<!--partie adresse + liens-------------------------------------------------------------------------------------------------->
+				<section class="les_liens ">
+					<a href="#home-page"><img src="assets/logo_unis-vert.png" alt="logo unis-vert"></a>
+					<div class="bl1">
+						<a href=" ">Nos actions</a>
+						<a href=" ">Le kit du nettoyeur</a>
+						<a href=" ">Contact</a>
+						<a href=" ">Mention légales</a>
+					</div>
+					<div class="bl2">
+						<p>Nous situer: </br>
+							12 rue de Neil Armstrong</br>
+							2020 l'odyssée
+						</p>
+						<p>Email : unis-vert@gmail.com</p>
+					</div>
+				</section>
+		
+			</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+	<script src="https://kit.fontawesome.com/1dd88b31c0.js "></script>
 </body>
 
 </html>
