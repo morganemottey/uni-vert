@@ -103,6 +103,9 @@ footer a, footer p {
     .les_liens>a>img {
         padding-right: 15px;
     }
+    .les_liens img {
+        margin-bottom: 20px;
+    }
 }
 
 .twitter {
@@ -120,23 +123,29 @@ footer a, footer p {
     -moz-box-shadow: 0px -25px 51px 0px rgba(0,0,0,0.5);
     box-shadow: 0px -25px 51px 0px rgba(0,0,0,0.5);
 }
+/*.les_liens .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}*/
 .les_liens ul {
     padding-left: 0;
 }
 .les_liens li {
     list-style-type: none;
     color: white;
-    font-size: 0.8em;
+    font-size: 13px;
     letter-spacing: 0.05em;
     line-height: 1.8em;
 }
 .les_liens li a {
-    font-size: 1em;
+    font-size: 13px;
 }
 .les_liens li span {
     font-size: 1.3em;
     line-height: 2.5em;
 }
+
 .bl1 {
     display: flex;
     flex-direction: column;
@@ -211,7 +220,6 @@ p {
     font-size: 1em;
     color: #5F5F5F;
 }
-
 
 /* Colours */
 
