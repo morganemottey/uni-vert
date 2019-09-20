@@ -1,4 +1,4 @@
-document.getElementById('button').addEventListener('click', function() {
+document.getElementById('button_engaged').addEventListener('click', function() {
 document.querySelector('.bg-modal').style.display = 'flex';
 });
 
