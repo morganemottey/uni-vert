@@ -2,7 +2,7 @@
 
 /*PAGE ISABELLE*/
 #actions {
- padding: 200px 0 100px 0;
+ padding: 200px 0 0 0;
 }
 #actions a {
     color:#3DD8C4;
@@ -52,13 +52,6 @@
 .item1 h3 {
     color:#3827B4;
 }
-.item2 h2{
-    text-align:left;
-
-  }
-.item2 .block {
-    text-align: center;
-}
 
 .item1 .card {
     border: 0;
@@ -74,20 +67,6 @@
     text-align: center;
 }
 
-/*Page 2*/
-.image2{
-    margin-top : 180px;
-}
-
-.item2 .block h3 {
-    margin-top: 30px;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-.image1 .image2 .image3{
-    text-align: center;
-}
-
 /*Responsive Images*/
 
 @media only screen and (max-width: 991px){
@@ -97,12 +76,8 @@
     margin-left: 80px;
     padding-bottom: 20px;
     }
-/*Page 2*/
-
-.image2{
-    margin : 70px 0;
-}
 
 .card{
     margin: 35px;
+}
 }
